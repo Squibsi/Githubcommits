@@ -11,6 +11,7 @@ This simple website needs help from a webdesigner that has insight in the follow
 6. Open style.css file with your text editor (eg. Brackets)
 7. I've inserted CSS comments with instructions that you should try to solve
 
+
 ## File naming convention
 To avoid broken links, naming conventions are important in web folders and filenames.
 
