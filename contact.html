@@ -48,7 +48,7 @@
             type="text"
             id="fname"
             name="fname"
-            value="John"
+            value=""
             placeholder="Type Firstname"
             required
           /><br />
@@ -57,7 +57,7 @@
             type="text"
             id="lname"
             name="lname"
-            value="Doe"
+            value=""
             placeholder="Type Lastname"
             required
           /><br /><br />
@@ -78,6 +78,7 @@
             required
           /><br />
 
+          <!--- dropdown, der vælger land--->
           <input list="countries" name="country" id="country" />
           <datalist id="countries">
             <option value="Albania"></option>
@@ -116,15 +117,26 @@
           </datalist>
           <br />
           <!--- Add a form textarea tag with a name attribute "question" and set the rows attribute equal to number "4" and set the cols attribute equal to "40" and finally add a placeholder attribute with following text "Ask a question" --->
+          <label for="question">Ask a question:</label><br />
+          <textarea
+            id="question"
+            name="question"
+            rows="4"
+            cols="40"
+            placeholder="Ask a question"
+            required
+          ></textarea
+          ><br />
 
           <!--- Add a form input type submit-button which submits all form values to a form-handler and finally add a value attribute with following text "Get in Touch" --->
+          <input type="submit" value="Get in Touch" />
         </form>
       </article>
       <ul class="images">
         <!--- Add an image tag inside <li> tag that displays image "thumb-1.jpg" and add an alt-attribute with following text "mario thumbnail 1 --->
-        <li></li>
+        <li><img src="img/thumb-1.jpg" alt="mario thumbnail 1" /></li>
         <!--- Add an image tag inside <li> tag that displays image "thumb-2.jpg" and add an alt-attribute with following text "mario thumbnail 2 --->
-        <li></li>
+        <li><img src="img/thumb-2.jpg" alt="mario thumbnail 2" /></li>
       </ul>
     </main>
     <section class="join">
